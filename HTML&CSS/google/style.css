@@ -1,0 +1,131 @@
+body {
+  background-color: #ffffff;
+  /* Cor de fundo escura */
+  margin: 0;
+  /* Remove margens padrão do navegador */
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  /* Define a fonte da página */
+}
+
+
+.container {
+  /* envolve todo o conteudo central */
+  display: flex;
+  /* Ativa o Flexbox para alinhar os elementos filhos */
+  flex-direction: column;
+  /* Organiza os elementos verticalmente */
+  align-items: center;
+  /* Centraliza horizontalmente os filhos */
+  justify-content: center;
+  /* Centraliza verticalmente os filhos */
+  min-height: 100vh;
+  /* Garante que o container ocupe toda a altura da tela */
+  width: 100vw;
+  /* Garante que o container ocupe toda a largura da tela */
+}
+
+
+#image {
+  margin-bottom: 24px;
+}
+
+#logo {
+  height: 92px;
+  width: 272px;
+}
+
+#image2 {
+  vertical-align: middle;
+  outline: none;
+  display: inline-block;
+}
+
+#logo2 {
+  height: 24px;
+  width: 74px;
+}
+
+#links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  display: inline-blocks;
+  gap: 1px;
+}
+
+ a {
+  color: #000000de;
+  text-decoration: none;
+  margin: 0 12px;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#form {
+  width: 100%;
+  /* Ocupa toda a largura disponível */
+  display: flex;
+  /* Ativa Flexbox */
+  justify-content: center;
+  /* Centraliza o input horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente (se necessário) */
+}
+
+
+#input {
+  width: 50vw;
+  height: 50px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 24px;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#input2 {
+  width: 37vw;
+  height: 50px;
+  padding: 0 16px;
+  border: 0.5px, solid, #d9d9d9;
+  border-radius: 24px;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 1px 6px #d9d9d9;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#button {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.submit {
+  height: 36px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-family: Arial,  sans-serif;
+  font-size: 14px;
+  color: #3c4043;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid rgb(154, 154, 154);
+
+}
