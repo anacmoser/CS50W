@@ -1,6 +1,6 @@
 # CS50's Web Programming with Python and JavaScript
 
-![Course Banner](https://github.com/anacmoser/CS50W/blob/main/static/banner.JPG)
+![Course Logo](https://github.com/anacmoser/CS50W/blob/main/logo.png)
 
 ## 📘 About This Repository
 
